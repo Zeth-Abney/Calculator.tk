@@ -23,7 +23,7 @@ root.configure(bg='lightgray')
 #instancing user entry box, StringVar makes contents callable outside the widget. 
 expression = StringVar(root)
 entry = ttk.Entry(root, textvariable=expression, width=60)
-entry.grid(columnspan=4, row=0, padx=5,pady=5) #grid has to be handled on a separate line, or else it will return NoneType. 
+entry.grid(columnspan=4, row=0, padx=5,pady=5) #grid has to be handled on a separate line, or else it will return NoneType. This edit was made in github online. 
 
 #set of number input buttons, click support only. 
 n1 = ttk.Button(root, text='1', command=lambda:button_input("1") ).grid(column=0,row=2,padx=5,pady=5)
